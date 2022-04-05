@@ -43,11 +43,8 @@
                 <li>mail: xxx@xxxxxx.jp</li>
                 <p>
                     おはようございますこんにちはおやすみなさい<br>
-                    今日はどこへ行こうかな何をしようかな何を食べようかな<br>
-                    それとも家で見逃し配信でもみてお昼はカップラーメンでも食べようかな<br>
-                    でもやっぱり天気のいいうちに一回散歩にいって夕飯の買い物してこよう<br>
-                    カメラは持ったかな、鍵は持ったかな、マスクはしてるかな、よし<br>
-                    あ、思ったより外寒いんだな、カフェラテでも飲もうかな<br>
+                    おはようございますこんにちはおやすみなさい<br>
+                    おはようございますこんにちはおやすみなさい<br>
                 </p>
             </ul>
         </section>
@@ -66,10 +63,20 @@
         </section>
         <section id= "news">
             <h2 class="sec-title">News</h2>
-
         </section>
-        <section id= "contact">
+        <section id= "contact" class="wrapper">
             <h2 class="sec-title">Contact</h2>
+            <form action="#" pethod="post">
+                <dl>
+                    <dt><label for="name">NAME</label></dt>
+                    <dd><input type="text" id="name" name="your-name"></dd>
+                    <dt><label for="email">E-mail</label></dt>
+                    <dd><input type="text" id="email" name="your-email"></dd>
+                    <dt><label for="message">MESSAGE</label></dt>
+                    <dd><textarea type="text" id="message" name="your-message"></textarea></dd>
+                </dl>
+                <div class="button"><input type="submit" value="送信"></div>
+            </form>
         </section>
     </main>
     <footer>

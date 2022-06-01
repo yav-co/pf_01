@@ -98,13 +98,14 @@ header li img{
 #contact dl{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-left: 17%;
 }
 #contact dt{
-    width: 15%;
+    width: 50%;
+    margin: 0 40px;
 }
 #contact dd{
-    width: 85%;
+    width: 60%;
     margin-bottom: 10px;
 }
 #contact dd input, 

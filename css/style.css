@@ -65,17 +65,31 @@ header li img{
 #about{
     padding-bottom: 60px;
 }
+#about .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 100px;
+}
+
+#about img{
+    width: 120px;
+    height: 120px;
+    margin: 20px 100px;
+    border-radius: 50%;
+}
+
 #about li:first-child{
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 #about ul{
     margin: 0 100px;
     padding-inline-start: 0;
     font-size: 1.3rem;
-    padding-bottom: 30px;
+    
 }
 #about p{
-    margin: 0;
+    margin: 0 30px;
     padding-top: 30px;
 }
 
@@ -93,6 +107,22 @@ header li img{
 }
 
 /* news */
+#news  ul{
+    list-style: disc;
+    padding-left: 15px;
+  }
+#news .ul-align-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+#news li {
+    padding-bottom: 10px;
+    font-size: 1.3rem;
+}
+#news li a:hover{
+    opacity: 0.7;
+}
 
 /* contact */
 #contact dl{

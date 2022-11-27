@@ -144,12 +144,12 @@ header li img{
 /* contact */
 #contact dl{
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 17%;
+    align-items: center;
+    flex-direction: column;
+   
 }
 #contact dt{
     width: 50%;
-    margin: 0 40px;
 }
 #contact dd{
     width: 60%;
@@ -179,3 +179,6 @@ header li img{
     color: #24292e;
 }
 /* footer */
+
+
+/* レスポンシブ */

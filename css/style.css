@@ -69,7 +69,7 @@ header li img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 100px;
+   
 }
 
 #about img{
@@ -80,6 +80,7 @@ header li img{
 }
 
 #about li:first-child{
+    padding-top: 20px;
     padding-bottom: 10px;
 }
 #about ul{
@@ -205,9 +206,7 @@ li{
 /* header */
 header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 0;
+    justify-content: space-around;
     margin: 20px 20px;
 }
 header h1{
@@ -249,33 +248,41 @@ header li img{
 /* about */
 #about{
     padding-bottom: 60px;
+    text-align: center;
 }
 #about .wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 100px;
+    margin: 0 20px;
 }
 
 #about img{
-    width: 120px;
-    height: 120px;
-    margin: 20px 100px;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
     border-radius: 50%;
+    
 }
 
 #about li:first-child{
     padding-bottom: 10px;
+    padding-top: 20px;
 }
-#about ul{
-    margin: 0 100px;
-    padding-inline-start: 0;
-    font-size: 1.3rem;
+#about .intro{
     
 }
-#about p{
-    margin: 0 30px;
-    padding-top: 30px;
+
+#about ul{
+    margin: 0 10px;
+    padding-inline-start: 0;
+    font-size: 1.3rem;
+    text-align: left;
+    
+}
+
+#about .keireki{
+    padding-top: 10px;
 }
 
 /* works */
